@@ -15,6 +15,8 @@ public class CalculateDigits {
             }
             number = number / 10;
         }
-        System.out.println("Daxil edilən ədədin ən böyük rəqəmi bərabərdir: " + largestDigit);
+        System.out.println("Daxil edilən ədədin ən böyük rəqəmi bərabərdir: " + largestDigit + "\n");
+
+        calculateLargestDigit();
     }
 }

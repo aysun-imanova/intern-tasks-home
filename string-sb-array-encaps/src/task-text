@@ -1,0 +1,20 @@
+Student class:
+
+• name
+• surname
+• avgPoint
+
+AvgPoint 0-100 aralığında olmalıdır.
+
+Group class:
+
+• no - qrupun nömrəsini ifadə edir, Stringdir, 2 böyük hərf və 3 rəqəmdən ibarət olmalıdır.
+• studentLimit - qrupdakı tələblərin max sayını ifadə edir.
+• students array
+• addStudent() - bu method student type-da student qəbul edir və Students array-a əlavə edir.
+• filterByName() - bu method String bir dəyər qəbul edir və fullName-də həmin String dəyər
+olan bütün studentləri bir array şəkilində geri qaytarır. Məsələn, tələbənin adı Həsən,
+soyadı Abbasovdursa, methoda "t ab" kimi bir dəyər göndərilsə, həmin tələbə də array-a
+əlavə edilməlidir, çünki fullname-də ("Hikmət Abbasov") "t ab" cotains olunur.
+
+studentLimit minimum 5, maximum 18 ola bilər.

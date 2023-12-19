@@ -5,26 +5,31 @@ import model.Month;
 import java.util.Scanner;
 
 public class ReservationService {
-    public static void makeReservation() {
-        Scanner sc = new Scanner(System.in);
+    public static Scanner sc = new Scanner(System.in);
 
-        Month month;
-        String inputMonth = null;
-        int day = 0;
-        boolean success = false;
+    public static Month month;
+    public static String inputMonth = null;
+    public static int day = 0;
+    public static boolean success = false;
+    public static void makeReservation() {
+
 
         while (!success) {
             System.out.println("Ay adını daxil edin: ");
-            inputMonth = sc.nextLine().toUpperCase();
-
-
+            inputMonth = sc.next().toUpperCase();
             try {
                 month = Month.valueOf(inputMonth);
             } catch (IllegalArgumentException e) {
-                System.err.println("Ayı düzgün daxil edin!");
-                sc.nextLine();
+                System.out.println("Ay adını düzgün daxil edin!");
+                success = true;
+            }
+
+            if (success) {
+                success = false;
                 continue;
             }
+
+
             System.out.println("Günü daxil edin: ");
             day = sc.nextInt();
 
@@ -33,21 +38,21 @@ public class ReservationService {
                     if (day >= 1 && day <= month.getDays()) {
                         success = true;
                     } else {
-                        System.err.println("Günü düzgün daxil edin!");
+                        System.out.println("Günü düzgün daxil edin!");
                     }
                 }
                 case FEVRAL -> {
                     if (day >= 1 && day <= month.getDays()) {
                         success = true;
                     } else {
-                        System.err.println("Fevral ayında maksimum 29 gün ola bilər!");
+                        System.out.println("Fevral ayında maksimum 29 gün ola bilər!");
                     }
                 }
                 case IYUN, APREL, NOYABR, SENTYABR -> {
                     if (day >= 1 && day <= 30) { //getDays methodu ilə qeyd edəndə, birləşdirmə istəyirdi.
                         success = true;
                     } else {
-                        System.err.println("Günü düzgün daxil edin!");
+                        System.out.println("Günü düzgün daxil edin!");
                     }
                 }
             }
