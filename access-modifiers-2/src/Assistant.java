@@ -1,14 +1,11 @@
-public class Assistant extends Employee {
+public class Assistant {
+    Manager manager = new Manager();
 
-    public Assistant(String name, boolean isSuccessful, double salary) {
-        super(name, isSuccessful, salary);
-    }
-
-    public void getFeedback(Employee employee){
-        if(isSuccessful()){
-            if(employee instanceof Manager){
-                ((Manager) employee).getPromotion();
-            }
-        } else System.out.println("You are fail!");
+    public void getFeedback(Employee employee) {
+        if (employee.isSuccessful()) {
+            manager.getPromotion(employee);
+        } else {
+            System.out.println("It is not successful!");
+        }
     }
 }

@@ -3,9 +3,9 @@ package class_library;
 public class Employee {
     private String name;
     private String surname;
-    private float salary;
+    private double salary;
 
-    public Employee(String name, String surname, float salary) {
+    public Employee(String name, String surname, double salary) {
         this.name = name;
         this.surname = surname;
         this.salary = salary;
@@ -19,7 +19,7 @@ public class Employee {
         if(name.matches("[A-Z] [a-zA-Z]*")){
         this.name = name;
         } else {
-            System.out.println("Name should start with uppercase and contain only letters!");
+            throw new IllegalArgumentException("Surname should start with uppercase and contain only letters!");
         }
     }
 
@@ -31,19 +31,19 @@ public class Employee {
         if(surname.matches("[A=Z][a-zA-Z]*")) {
             this.surname = surname;
         } else{
-            System.out.println("Surname should start with uppercase and contain only letters!");
+            throw new IllegalArgumentException("Surname should start with uppercase and contain only letters!");
         }
     }
 
-    public float getSalary() {
+    public double getSalary() {
         return salary;
     }
 
     public void setSalary(float salary) {
-        if(salary >=250) {
+        if(salary >=250.00F) {
             this.salary = salary;
         } else {
-            System.out.println("Salary should be 250AZN or higher!");
+            throw new IllegalArgumentException("Salary should be 250.00 AZN or higher!");
         }
     }
 }

@@ -1,0 +1,16 @@
+Employee class:
+- name
+- surname
+- salary
+
+Department class:
+- name
+- employeeLimit
+- salaryLimit
+- [] employees
+- addEmployee()
+
+Employee və Department class-larını class_library package-ində saxlayın.
+Employee-də name və surname dəyərləri yalnız hərflərdən ibarət olmalıdır və böyük hərflə başlamalıdır.
+salary dəyəri 250-dən aşağı ola bilməz. addEmployee() methodu employees[] array-a employee obyekti
+əlavə etmək üçündür.

@@ -1,0 +1,17 @@
+Bir Figure abstract class-i olur və onun Figure-dan miras alan zaman mütləq override edilməsi lazım olan bir calcArea() methodu olur.
+
+Bir Square class-ı olur side deyə bir property olur və side mənfi ola bilməz.
+side-a dəyəri təyin edilməmiş Square obyekti yaradıla bilməz. 
+Square class-i Figure class-indan miras alacaq və calcArea() methodunu özünə uyğun override edəcək.
+
+Bir Rectangler class-i olur, width və length mənfi ola bilməz. Width və length dəyərləri təyin olunmamış Rectangular obyekti yaradıla bilməz. 
+Rectangular class-i Figure class-indan miras alacaq və calcArea() methodunu özünə uyğun override edəəcək.
+
+Proqram class-inda bir menu olacaq. 
+1. Square
+2. Rectangular
+0. Quit
+
+İstifadəçi 1 yazıb enter-ə click edərsə, Square-in calcArea() methodu işə düşməlidir.
+İstifadəçi 2 yazıb enter-ə click edərsə, Rectangular-in calcArea() methodu işə düşməlidirş
+İstifadəçi 0 yazıb enter-ə click edərsə, proqram sonlanmalıdır. 

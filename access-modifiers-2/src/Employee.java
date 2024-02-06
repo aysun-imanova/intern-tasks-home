@@ -1,7 +1,7 @@
 public class Employee {
     private String name;
     private boolean isSuccessful;
-    private double salary;
+    double salary;
 
     public Employee(String name, boolean isSuccessful, double salary) {
         this.name = name;

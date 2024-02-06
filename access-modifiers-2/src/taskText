@@ -1,0 +1,11 @@
+Manager class-i yaradırsınız:
+getPromotion() ancaq öz class-inda və derived class-da görünməlidir.
+Employee qəbul edir, employee maaşın 100 vahid artırır və geriyə Employee ötürür.
+
+Asistant class-i yaradırsınız:
+getFeedback() methodu Employee qəbul edir, əgər Successful-dursa, getPromotion() methodu işə düşməlidir.
+
+Employee class-i yaradırsınız:
+name
+isSuccessful
+salary property-ləri olur.

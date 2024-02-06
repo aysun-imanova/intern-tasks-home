@@ -1,10 +1,6 @@
-public class Manager extends Employee {
-
-
-    public Manager(String name, boolean isSuccessful, double salary) {
-        super(name, isSuccessful, salary);
+public class Manager {
+    protected void getPromotion(Employee employee) {
+        employee.setSalary(employee.getSalary() + 100);
     }
-    protected void getPromotion() {
-        System.out.println("Get promotion: " + (getSalary() + 100));
-    }
+
 }

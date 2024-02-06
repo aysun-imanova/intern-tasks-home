@@ -7,12 +7,12 @@ public class Department {
     private Employee[] employees;
     private int employeeCount;
 
-    public Department(String name, int employeeLimit, double salaryLimit, Employee[] employees, int employeeCount) {
+    public Department(String name, int employeeLimit, double salaryLimit) {
         this.name = name;
         this.employeeLimit = employeeLimit;
         this.salaryLimit = salaryLimit;
-        this.employees = employees;
-        this.employeeCount = employeeCount;
+        this.employees = new Employee[getEmployeeLimit()];
+        this.employeeCount = 0;
     }
 
     public String getName() {
