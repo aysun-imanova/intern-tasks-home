@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/abstract-polymorph-2/abstract-polymorph-2.iml" filepath="$PROJECT_DIR$/abstract-polymorph-2/abstract-polymorph-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstraction-methods/abstraction-methods.iml" filepath="$PROJECT_DIR$/abstraction-methods/abstraction-methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/access-modifiers/access-modifiers.iml" filepath="$PROJECT_DIR$/access-modifiers/access-modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/access-modifiers-2/access-modifiers-2.iml" filepath="$PROJECT_DIR$/access-modifiers-2/access-modifiers-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm-1/algorithm-1.iml" filepath="$PROJECT_DIR$/algorithm-1/algorithm-1.iml" />
@@ -13,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/task10/task10.iml" filepath="$PROJECT_DIR$/task10/task10.iml" />
       <module fileurl="file://$PROJECT_DIR$/task11/task11.iml" filepath="$PROJECT_DIR$/task11/task11.iml" />
       <module fileurl="file://$PROJECT_DIR$/task12/task12.iml" filepath="$PROJECT_DIR$/task12/task12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task6/task6.iml" filepath="$PROJECT_DIR$/task6/task6.iml" />
       <module fileurl="file://$PROJECT_DIR$/task7/task7.iml" filepath="$PROJECT_DIR$/task7/task7.iml" />
       <module fileurl="file://$PROJECT_DIR$/task8/task8.iml" filepath="$PROJECT_DIR$/task8/task8.iml" />
       <module fileurl="file://$PROJECT_DIR$/task9/task9.iml" filepath="$PROJECT_DIR$/task9/task9.iml" />
