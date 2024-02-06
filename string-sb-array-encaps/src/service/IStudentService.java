@@ -1,7 +1,7 @@
 package service;
 
-public interface IStudentService {
-    public void addStudent();
+import model.Student;
 
-    public void filterByName();
+public interface IStudentService {
+//   int validateAvgPoint(int avgPoint);
 }

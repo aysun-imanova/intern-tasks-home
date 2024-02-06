@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/abstract-polymorph-2/abstract-polymorph-2.iml" filepath="$PROJECT_DIR$/abstract-polymorph-2/abstract-polymorph-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/access-modifiers/access-modifiers.iml" filepath="$PROJECT_DIR$/access-modifiers/access-modifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access-modifiers-2/access-modifiers-2.iml" filepath="$PROJECT_DIR$/access-modifiers-2/access-modifiers-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm-1/algorithm-1.iml" filepath="$PROJECT_DIR$/algorithm-1/algorithm-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm-2/algorithm-2.iml" filepath="$PROJECT_DIR$/algorithm-2/algorithm-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string-sb/string-sb.iml" filepath="$PROJECT_DIR$/string-sb/string-sb.iml" />
       <module fileurl="file://$PROJECT_DIR$/string-sb-array-encaps/string-sb-array-encaps.iml" filepath="$PROJECT_DIR$/string-sb-array-encaps/string-sb-array-encaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/task1/task1.iml" filepath="$PROJECT_DIR$/task1/task1.iml" />
       <module fileurl="file://$PROJECT_DIR$/task10/task10.iml" filepath="$PROJECT_DIR$/task10/task10.iml" />
       <module fileurl="file://$PROJECT_DIR$/task11/task11.iml" filepath="$PROJECT_DIR$/task11/task11.iml" />
       <module fileurl="file://$PROJECT_DIR$/task12/task12.iml" filepath="$PROJECT_DIR$/task12/task12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task4/task4.iml" filepath="$PROJECT_DIR$/task4/task4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task5/task5.iml" filepath="$PROJECT_DIR$/task5/task5.iml" />
       <module fileurl="file://$PROJECT_DIR$/task6/task6.iml" filepath="$PROJECT_DIR$/task6/task6.iml" />
       <module fileurl="file://$PROJECT_DIR$/task7/task7.iml" filepath="$PROJECT_DIR$/task7/task7.iml" />
       <module fileurl="file://$PROJECT_DIR$/task8/task8.iml" filepath="$PROJECT_DIR$/task8/task8.iml" />

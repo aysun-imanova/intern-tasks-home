@@ -1,36 +1,21 @@
 package model;
 
-import java.util.Scanner;
-
 public class Student {
     private String name;
     private String surname;
     private int avgPoint;
 
-    Scanner scanner = new Scanner(System.in);
-
-    public Student() {
-    }
-
-    public Student(Scanner scanner) {
-        System.out.println("Tələbənin adını daxil edin: ");
-        this.name = scanner.nextLine();
-
-        System.out.println("Tələbənin soyadını daxil edin: ");
-        this.surname = scanner.nextLine();
-
-        System.out.println("Tələbənin ortalamasını daxil edin: ");
-        this.avgPoint = scanner.nextInt();
+    public Student(String name, String surname, int avgPoint) {
+        this.name = name;
+        this.surname = surname;
         setAvgPoint(avgPoint);
-    }
-
-
-    public String getName() {
-        return name;
     }
 
     public String getFullName() {
         return name + " " + surname;
+    }
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
@@ -54,6 +39,6 @@ public class Student {
             this.avgPoint = avgPoint;
         } else {
             System.out.println("AvgPoint 0-100 aralığında olmalıdır!\n");
-        } new Student(scanner);
+        }
     }
 }
